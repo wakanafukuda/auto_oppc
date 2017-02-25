@@ -1,0 +1,7 @@
+<launch>
+	<include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" ></include>
+	<include file="//home/rodepoppc/catkin_ws/src/web_video_server/launch/web_video_server.launch" ></include>
+
+  	<node pkg="gui_package" name="my_gui_node" type="gui_node"></node>
+
+</launch>

@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="battery_package" name="battery_package" type="battery_package"/>
+</launch>

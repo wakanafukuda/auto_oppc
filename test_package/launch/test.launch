@@ -1,0 +1,5 @@
+<launch>
+	<include file="/home/rodepoppc/catkin_ws/src/operate_package/launch/serial_node_python.launch" ></include>
+	<node pkg="motor_test" name="motor_test" type="motor_test">
+	</node>
+</launch>

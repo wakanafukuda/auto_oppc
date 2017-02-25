@@ -1,0 +1,5 @@
+<launch>
+	<include file="$/home/rodepoppc/catkin_ws/src/battery_package/launch/battery.launch ></include>
+	<node pkg="operate_package" name="operate_robot" type="operate_robot"></node>
+
+</launch>
